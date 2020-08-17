@@ -1,0 +1,42 @@
+{
+  "name": "container",
+  "version": "1.0.0",
+  "description": "Inversion of Control Container",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reliese/ts-container.git"
+  },
+  "keywords": [
+    "IoC",
+    "Container"
+  ],
+  "author": "Cristian Llanos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reliese/ts-container/issues"
+  },
+  "homepage": "https://github.com/reliese/ts-container#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
+    "@babel/types": "^7.11.0",
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {}
+}
